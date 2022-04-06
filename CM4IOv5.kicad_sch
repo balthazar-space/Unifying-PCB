@@ -2508,7 +2508,7 @@
     (property "Value" "SRN6045TA-3R3Y  (3.3uH)" (id 1) (at 128.27 28.6004 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Inductor_SMD:L_1210_3225Metric" (id 2) (at 123.19 31.75 0)
+    (property "Footprint" "" (id 2) (at 123.19 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 123.19 31.75 0)
@@ -3768,7 +3768,7 @@
       (reference "J17") (unit 1) (value "THD-20-R") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical")
     )
     (path "/7252cf63-d7d1-4028-b449-5792fc6d1955"
-      (reference "L2") (unit 1) (value "SRN6045TA-3R3Y  (3.3uH)") (footprint "Inductor_SMD:L_1210_3225Metric")
+      (reference "L2") (unit 1) (value "SRN6045TA-3R3Y  (3.3uH)") (footprint "Inductor_SMD:L_Bourns_SRP7028A_7.3x6.6mm")
     )
     (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005dc6d7d8"
       (reference "Module1") (unit 1) (value "ComputeModule4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module-noholes")
