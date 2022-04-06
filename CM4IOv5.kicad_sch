@@ -1209,6 +1209,11 @@
     (stroke (width 0) (type solid))
     (uuid 2cb653ae-a486-4999-8f63-2cc2ca83bff5)
   )
+  (polyline (pts (xy 92.71 20.32) (xy 133.35 20.32))
+    (stroke (width 0) (type solid))
+    (uuid 2e05c650-f6a0-46a8-b99f-42936c20d673)
+  )
+
   (wire (pts (xy 106.68 63.5) (xy 116.84 63.5))
     (stroke (width 0) (type solid))
     (uuid 2fc0535a-9526-4bf9-9cf3-bacd342c13b7)
@@ -1225,6 +1230,11 @@
     (stroke (width 0) (type solid))
     (uuid 35488cf3-7032-4066-b49b-2008899d994c)
   )
+  (polyline (pts (xy 92.71 20.32) (xy 92.71 69.85))
+    (stroke (width 0) (type solid))
+    (uuid 36a69ddc-3df5-4177-a45f-5ff75f6dbcfe)
+  )
+
   (wire (pts (xy 34.29 53.34) (xy 40.64 53.34))
     (stroke (width 0) (type default))
     (uuid 3f21e0a6-c067-401a-a614-63b4066ca64e)
@@ -1341,6 +1351,11 @@
     (stroke (width 0) (type solid))
     (uuid 6bacd1d7-7ec3-4abe-8117-01ac7ac35297)
   )
+  (polyline (pts (xy 133.35 20.32) (xy 133.35 69.85))
+    (stroke (width 0) (type solid))
+    (uuid 6cf2bdaf-f473-4314-b8f3-03a63cb12d7e)
+  )
+
   (wire (pts (xy 233.68 83.82) (xy 233.68 99.06))
     (stroke (width 0) (type solid))
     (uuid 6ea7050b-58af-4b57-a578-719279fc5949)
@@ -1413,11 +1428,6 @@
     (stroke (width 0) (type default))
     (uuid af469bd1-91da-4d26-8b4d-8310d5b3437d)
   )
-  (polyline (pts (xy 92.71 20.32) (xy 92.71 69.85))
-    (stroke (width 0) (type solid))
-    (uuid b3c04904-8467-4c0d-94ba-7e646b5ae97f)
-  )
-
   (wire (pts (xy 54.61 53.34) (xy 59.69 53.34))
     (stroke (width 0) (type solid))
     (uuid bb4f090e-1069-4515-b0a7-cd6e556cae2d)
@@ -1486,15 +1496,6 @@
     (stroke (width 0) (type solid))
     (uuid dc715bc6-3509-4732-bd85-05b5bf449228)
   )
-  (polyline (pts (xy 92.71 20.32) (xy 133.35 20.32))
-    (stroke (width 0) (type solid))
-    (uuid dd81f2fc-0020-4acc-8fb9-b0e5e997fba3)
-  )
-  (polyline (pts (xy 133.35 20.32) (xy 133.35 69.85))
-    (stroke (width 0) (type solid))
-    (uuid defc922f-ab1c-4cc0-95f2-6fcd9822d6e4)
-  )
-
   (wire (pts (xy 265.43 118.11) (xy 275.59 118.11))
     (stroke (width 0) (type default))
     (uuid df0c8f26-1c56-4a1b-a58d-1f5ea673b831)
@@ -1537,7 +1538,7 @@
   )
   (polyline (pts (xy 133.35 69.85) (xy 92.71 69.85))
     (stroke (width 0) (type solid))
-    (uuid fb82f8bc-7396-403a-8a9a-72b7cf4e3999)
+    (uuid fba88f71-8dbb-40fa-b4ff-e7c684ad91b4)
   )
 
   (wire (pts (xy 175.26 147.32) (xy 175.26 158.75))
@@ -2508,7 +2509,7 @@
     (property "Value" "SRN6045TA-3R3Y  (3.3uH)" (id 1) (at 128.27 28.6004 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (id 2) (at 123.19 31.75 0)
+    (property "Footprint" "Inductor_SMD:L_Bourns_SRP7028A_7.3x6.6mm" (id 2) (at 123.19 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 123.19 31.75 0)
@@ -3752,6 +3753,9 @@
     (path "/00000000-0000-0000-0000-00005cff70b1/87e8e990-76a8-4d15-abcf-4612c7f764b3"
       (reference "J11") (unit 1) (value "HDMI_C_1.4") (footprint "CM4IO:EDAC 690-019-298-412")
     )
+    (path "/00000000-0000-0000-0000-00005cff706a/c98cf876-bdd0-4199-98c6-760d4da3c3fa"
+      (reference "J12") (unit 1) (value "nRpiBoot") (footprint "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical")
+    )
     (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005e95ca2d"
       (reference "J13") (unit 1) (value "Conn_01x03") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
@@ -3766,6 +3770,9 @@
     )
     (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005dd3ddee"
       (reference "J17") (unit 1) (value "THD-20-R") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-00005cff706a/da63058d-5bc9-4c2b-8df6-cb51a09aa3b4"
+      (reference "J18") (unit 1) (value "GLOBAL_EN") (footprint "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical")
     )
     (path "/7252cf63-d7d1-4028-b449-5792fc6d1955"
       (reference "L2") (unit 1) (value "SRN6045TA-3R3Y  (3.3uH)") (footprint "Inductor_SMD:L_Bourns_SRP7028A_7.3x6.6mm")
