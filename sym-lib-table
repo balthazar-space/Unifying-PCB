@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name "CM4IO")(type "KiCad")(uri "${KIPRJMOD}/CM4IO.kicad_sym")(options "")(descr ""))
-  (lib (name "hdmi-d")(type "Legacy")(uri "${KIPRJMOD}/hdmi-d/hdmi-d.lib")(options "")(descr ""))
+  (lib (name "balthazar-logo")(type "KiCad")(uri "${KIPRJMOD}/CM4IO.pretty/balthazar-logo.kicad_sym")(options "")(descr ""))
+  (lib (name "nlnet-logo")(type "KiCad")(uri "${KIPRJMOD}/CM4IO.pretty/nlnet-logo.kicad_sym")(options "")(descr ""))
 )
