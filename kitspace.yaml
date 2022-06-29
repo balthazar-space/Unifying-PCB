@@ -1,0 +1,6 @@
+site: https://github.com/goran-mahovlic/Unifying-PCB
+color: black
+gerbers: kicad/gerbers
+eda:
+  type: kicad
+  pcb: kicad/Unifying.kicad_pcb
