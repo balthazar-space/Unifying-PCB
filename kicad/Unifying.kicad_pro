@@ -103,12 +103,7 @@
         "silk_edge_clearance|96891652|116362000|37778a1f-86de-4449-abb1-14af5009805a|898d6e2a-f5ee-4f0a-86cf-83a52436926d",
         "silk_edge_clearance|96894609|117592000|37778a1f-86de-4449-abb1-14af5009805a|aaf487cc-d221-4c0f-9c70-5642fef71223",
         "silk_edge_clearance|96919033|127752000|37778a1f-86de-4449-abb1-14af5009805a|59a52780-0dc8-4c90-be48-600d38431ba7",
-        "silk_edge_clearance|96952000|127752000|37778a1f-86de-4449-abb1-14af5009805a|8069f069-4d00-46af-b5b3-2047e8a28c14",
-        "silk_overlap|102906000|103760000|f50d5cbc-b003-406c-bfb6-83ef40b8bc60|93a540da-ee56-48de-ad31-f0a49efa83f8",
-        "silk_overlap|103005000|103760000|93a540da-ee56-48de-ad31-f0a49efa83f8|f50d5cbc-b003-406c-bfb6-83ef40b8bc60",
-        "silk_overlap|103005000|104170000|57b0f576-79aa-463e-bfd4-75aebbf4bdfe|acd9ae90-401c-4c81-9bd3-11a59c97c35b",
-        "silk_overlap|103005000|104560000|93a540da-ee56-48de-ad31-f0a49efa83f8|acd9ae90-401c-4c81-9bd3-11a59c97c35b",
-        "silk_overlap|103005000|104560000|93a540da-ee56-48de-ad31-f0a49efa83f8|e8e152bb-e051-4707-a78e-d35663ed0368"
+        "silk_edge_clearance|96952000|127752000|37778a1f-86de-4449-abb1-14af5009805a|8069f069-4d00-46af-b5b3-2047e8a28c14"
       ],
       "meta": {
         "version": 2
@@ -147,7 +142,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "error",
-        "silk_overlap": "error",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -166,7 +161,7 @@
       "rules": {
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
-        "max_error": 0.005,
+        "max_error": 0.01,
         "min_clearance": 0.0,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.01,
@@ -483,7 +478,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.13,
+        "clearance": 0.12,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.13,
@@ -500,7 +495,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.13,
+        "clearance": 0.12,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.13,
@@ -517,7 +512,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.13,
+        "clearance": 0.12,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.178,
@@ -534,7 +529,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.13,
+        "clearance": 0.12,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.13,
@@ -551,7 +546,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.13,
+        "clearance": 0.12,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.15,
@@ -568,7 +563,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.13,
+        "clearance": 0.12,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.13,
