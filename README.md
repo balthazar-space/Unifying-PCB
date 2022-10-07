@@ -7,5 +7,9 @@ It has GPIO expansion port, HDMI,2x USB 3.0, Ethernet RJ45 and a microSD card sl
 
 It is designed to accomodate ULX4M-CM4-HAT designed by Radiona.org using HDR 100 POS SMT board to board mezzanine connectors.
 
-dimensions: 60x90 mm
+dimensions: 120x80 mm
 placement: right back side of Balthazar casing
+
+![TOP](/images/Unifying_v02_top.png)
+
+![BOTTOM](/images/Unifying_v02_bottom.png)
