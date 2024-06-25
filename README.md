@@ -1,4 +1,11 @@
+# Balthazar
+
+Open-hardware laptop computer modules description and concept.
+
+These are electronic schematic modules as presented at https://balthazar.space/wiki/Balthazar with the main aim for team access. See the [main repository](https://github.com/balthazar-space/balthazar) for other designs.
+
 # Unifying-PCB
+
 Unifying PCB expansion for Balthazar 
 
 Single PCB solution for connecting the three previously designed Balthazar modules (I/O, power supply, USB 2.0, 3.0 controllers, keyboard and adding Compute Module compatible FPGA boards. Aimed at setting a compatibility standard to widely accepted hardware standards.
@@ -13,6 +20,16 @@ placement: right back side of Balthazar casing
 ![TOP](/images/Unifying_v02_top.png)
 
 ![BOTTOM](/images/Unifying_v02_bottom.png)
+
+## License
+
+All resources except the keyboard firmware - which is licensed with with GPLv3 or later - licensed under the CERN Open Hardware Licence CERN-OHL W V.2.0
+
+Version 2.0 of the CERN-OHL introduces three variants of the licence – strongly (S) reciprocal, weakly (W) reciprocal and permissive (P) – which aim to address specific constraints caused by different collaboration models currently used in open-hardware projects. 
+
+The first two variants mean that if any product is made using an open hardware design, the design of that product, including any improvements or modifications, should be made available under the same licence as that of the original product. Permissive licences do not impose this condition.
+
+See the [LICENSE.md](./LICENSE.md) file for more information.
 
 ## Funding
 
